@@ -1,0 +1,43 @@
+.container {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: auto;
+}
+
+.woolrich {
+  position: relative;
+  float: left;
+}
+
+.woolrich img {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.woolrich h1 {
+  position: absolute;
+  left: 45%;
+  top: 10%;
+  color: white;
+  font: "orange_juice"
+}
+
+.woolrich p {
+  position: absolute;
+  left: 41%;
+  top: 20%;
+  color: white;
+  font-family: sans-serif;
+}
+
+.order {
+  float: right;
+  clear: both;
+}
+
+.gallery img{
+  float: left;
+  width: 100px;
+  height: 100px;
+}
