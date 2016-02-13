@@ -1,12 +1,12 @@
-# _{Ping-Pong}_
+# _{Woolrich Boots}_
 
-#### _{Enter a number and the program will play ping-pong with the numbers}_
+#### _{Page for a pair of Woolrich Boots}_
 
 #### By _**{Keir Staple}**_
 
 ## Description
 
-_{This is a program that allows you to enter a number and then the page will display every number from 1 to the entered number in an unordered list. Multiples of 3 will be replaced with 'ping', multiples of 5 will be replaced with 'pong', and multiples of both 3 and 5 will be replaced with 'pingpong'. There is a left sidebar indicating the level 2 course I would like to take.}_
+_{This is a product page that displays information about a pair of Woolrich boots. There is a form to complete your order, and gallery of additional boots.}_
 
 ## Setup/Installation Requirements
 
@@ -17,7 +17,7 @@ _{This is a program that allows you to enter a number and then the page will dis
 
 ## Known Bugs
 
-_Since the submit function appends the unordered list to the DOM, it is difficult to resubmit the form without refreshing the page to get new form results. You can resubmit new information but it will append after the previous list._
+_Some additional styling can be done_
 
 ## Support and contact details
 
@@ -25,7 +25,7 @@ _Contact Keir Staple at keirstaple@comcast.net_
 
 ## Technologies Used
 
-_{This page was created using the HTML, CSS, and Javascript languages, as well as the Bootstrap and jQuery libraries. Spec tests were run using Mocha and Chai.}_
+_{This page was created using the HTML, CSS.}_
 
 ### License
 
