@@ -1,6 +1,5 @@
 html {
-  margin: 0;
-  padding: 0;
+  box-sizing: border-box;
 }
 
 .container {
@@ -9,6 +8,7 @@ html {
   width: 1100px;
   height: 100%;
   border-radius: 5px;
+  box-sizing: border-box;
 }
 
 .woolrich {
@@ -17,6 +17,7 @@ html {
   height: 500px;
   width: 700px;
   margin-left: 20px;
+  box-sizing: border-box;
 }
 
 .woolrich img {
@@ -48,7 +49,6 @@ html {
   margin-left: 0px;
   border: solid grey 0.5px;
   border-radius: 0 5px 5px 0;
-  background: #e6e6e6;
 }
 
 .formBanner h2{
@@ -56,17 +56,19 @@ html {
   background-color: white;
   border-bottom: solid grey 1px;
   margin-top: 10px;
-  height: 100%;
+  height: 30px;
 }
 
 .formBody {
   padding-left: 20px;
+  height: 440px;
 }
 
 .formBody select {
   width: 200px;
   margin-left: 20px;
   height: 50px;
+  margin-top: 15px;
 }
 
 .formBody button {
@@ -78,9 +80,27 @@ html {
   border-radius: 5px;
 }
 
-.formBody .cart {
+.formBody #cart {
   background-color: #729331;
   border-color: #557423;
+}
+
+.formBody #wish {
+  background-color: #ff9966;
+  border-color: #ff884d;
+}
+
+.formBody #checkout {
+  background-color: #0099cc;
+  border-color: #0086b3;
+}
+
+.buttons {
+  margin-top: 50px;
+}
+
+.helpLink {
+  color: #006699;
 }
 
 .gallery {
@@ -96,4 +116,9 @@ html {
   float: left;
   width: 100px;
   height: 100px;
+}
+
+.productInformation {
+  margin-top: 30px;
+  clear: both;
 }
